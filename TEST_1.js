@@ -30,10 +30,16 @@ function isPalindrome(s){
         }
         left++;
         right--;
-    }
+    }                                           
     return true
 
 }
+// radar
+//  L R
+
+// Big O 
+// Time Complexity: O(1)
+// Space Comlexity: O(n/2) -> O(n)
 console.log(isPalindrome('radar')); 
 console.log(isPalindrome('level')); 
 console.log(isPalindrome('hello')); 

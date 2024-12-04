@@ -47,10 +47,19 @@ function TwoSum(nums, target) {
             result.push([map.get(complement), i]); 
         }
         map.set(nums[i], i);
+        // [
+         // 2 -> 0
+         //    result = [ [0,1]]
+         //   
+    //]
     }
 
     return result;
 }
+
+// Big O 
+// Time Complexity: O(n)
+// Space Comlexity: O(n)
 
 console.log(TwoSum([2,7,11,15],9))
 console.log(TwoSum([3, 2, 4, 3], 6))
